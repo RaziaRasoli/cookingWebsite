@@ -1,0 +1,458 @@
+
+<html>
+<head>
+	<title></title>
+	<meta lang="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+	#main1{
+		width: 100%;
+		height: 1000px;
+		background-color: #e6e6ff;
+	}
+
+
+	#head{
+  height: 40px;
+    width: 100%;
+    background-color: #e6e6ff;
+    direction: rtl;
+    margin-bottom: 2px;
+  }
+  #head span{
+    font-size: 26px;
+    padding: 45px 44px;
+    color:red;
+  }
+  #head p{
+    font-size: 19px;
+  }
+
+
+  #head1{
+    height: 70px;
+    background-color: red;
+   
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  height: 100px;
+}
+.topnav .search-container {
+  float: left;
+  display: inline;
+}
+.topnav button{
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+   .topnav input[type=text],   {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar img{
+  width: 70px;
+  height: 70px;float: right;
+
+}.navbar a {
+    height: 70px;
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:white;
+    padding-top: 22px; 
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+    background-color:white;
+    height: 70px;
+    cursor: pointer;
+
+}.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-top: 22px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  #e6e6ff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    ;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    height: 30px;
+    direction:rtl;
+    padding-left: 56px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#main1 #main-description{
+	width: 60%;
+  margin-top: 10px;
+	float: right;
+	display: inline;background-color: white;
+	height: 920px;
+	margin-right:7%;
+
+	}
+	#main-description img{
+		width: 300px;
+		height: 300px;
+		display: inline;
+
+		float: right;
+		padding-left: 20px;
+	}
+	#main1 #second-part{
+  margin-top: 32px;
+  width: 26%;
+  float: left;
+  display: inline;
+  background-color: #eff5f5;
+  height: 900px;
+  margin-left: 15px;
+  border: solid #a6a6a6 2px;
+  border-radius:10px;
+  
+
+}
+#second-part .salamat{
+  width: 100%;
+  height: 80px;
+  background-color: #eff5f5;
+  display: block;
+}
+#second-part h1{
+  font-size: 23px;
+  text-align: center;
+  padding-left: 230px;
+  padding-top: 26px;
+  color:red;
+
+
+}#second-part .salamat img{
+  width: 25%;
+  float: right;
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 30px;
+}
+#second-part .salamat a{
+  text-decoration: none;
+
+}
+#footer{
+  width: 100%;
+ height: 300px;
+  background-color:#e6e6e6;
+}
+#footer #part-one{
+  width: 200px;
+  height: 160px;
+  float: left;
+  display: inline;
+  /*background-color: red;*/
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+#footer #part-one img{
+  width: 25%;
+}
+#footer #part-one img:hover{
+  background-color: blue;
+  border:solid 5px lightblue;
+}
+#footer #part-two{
+  width: 600px;
+  height: 180px;
+  float: right;
+  display: inline;
+  /*background-color: red;*/
+  padding-right: 30px;
+  margin-right: 8%;
+  }
+#footer #part-two p{
+   width: 100%;
+  height: 100px;
+  float: right;
+  text-decoration: 
+}
+#footer #head-footer{
+  width: 100%;
+  height: 90px;
+  background-color:  #800000;
+
+}
+ #head-footer button:hover{
+  background-color: white;
+ }
+
+		</style>
+</head>
+<body>
+	<div id="head">
+   
+    <span style="display:inline;">  جدیدترین اخبار:</span>
+      <p style="display:inline;">کتابخانه های دیجیتال در بسیاری از فرم ها آمده است</p>
+  </div>
+  <div id="head1">
+<div class="navbar">
+  <img src="image/logo.jpg">
+  <div class="dropdown">
+    <button class="dropbtn">دستور پخت 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="morning.html" style="direction:rtl;">صبحانه</a>
+      <a href="lunch.html">نهار و شام</a>
+      <a href="evening.html">عصرانه</a>
+    </div>
+  </div>
+   <a href="choose.html">انتخاب</a>
+  <a href="salamt.html">سلامت</a>
+  <a href="#news">دانلود ها</a>
+  <a href="#news">نماس با ما</a>
+  
+  <div class="topnav">
+  	<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div> 
+</div>
+</div>
+	<div id="main1">
+		<div id="main-description">
+			<img src="image/خیار.jpg">
+			<h1 style="direction:rtl;padding-right:320px;">خواص خیار برای سلامتی
+خیار برای لاغری و کاهش وزن</h1>
+			<p style="direction:rtl; padding-left:20px;padding-right:20px;font-size:17px;">
+   
+مقدار بالای آب (۹۵% حجم خیار را آب تشکیل می دهد) و مواد معدنی و همچنین کالری کم خیار (هر ۱۰۰ گرم خیار تنها ۱۳ کالری دارد که جز کم کالری ترین خوراکی ها محسوب می شود) آن را برای رژیم های لاغری مناسب ساخته است. همچنین مقدار قابل توجهی فیبر دارد که در افزایش احساس سیری نقش داشته، جذب ریز مغذی ها را تسهیل کرده و برای بهبود روند هضم غذا و دفع مواد زائد جمع شده در روده ها بسیار لازم است. علاوه بر این خواص مدر و ضدالتهاب خیار به کاهش احتباس آب در بافت های بدن کمک می کند تا تورم کاهش یابد و کاهش وزن تسهیل شود. بنابراین سعی کنید هر روز خیار را در برنامه غذایی خود بگنجانید
+به افراد درگیر با دیابت نوع ۲ توصیه می شود از رژیم غذایی سرشار از فیبر، شامل ۵-۳ وعده سبزیجات در روز، پیروی کنند. فیبر فواید درمانی بسیاری دارد از جمله ایجاد احساس سیری، مهار اشتها و کمک به کنترل قند خون. مواد غذایی دارای کربوهیدرات، بیشترین تاثیر را بر سطح قند خون داشته و میزان مصرف این غذاها در افراد دیابتی از اهمیت بالایی برخوردار است زیرا بدن این افراد توانایی تولید هورمون انسولین و کاهش سطح قند خون را ندارد. با توجه به اینکه خیار حاوی فیبر بوده و میزان کربوهیدرات موجود در آن ناچیز است، می تواند در برنامه غذایی یک فرد دیابتی قرار بگیرد.
+خیار مانند سایر میوه ها و سیزیجات حاوی مواد مغذی و ترکیبات شیمیایی خاصی است که ممکن است برای افراد مبتلا به دیابت مفید باشند. بر اساس مطالعات محدود صورت گرفته بر روی حیوانات، عصاره خیار با کاهش سطح قند خون در ارتباط است؛ با این وجود، اثبات تاثیرگذاری خیار در بهبود قند خون مبتلایان به دیابت نیازمند انجام مطالعات و پژوهش بیشتر و گسترده تر است.
+بهبود گوارش و رفع یبوست با خیار
+خیار سرشار از آب و فیبر است؛ آب و فیبر مهمترین عناصر برای برخورداری از فرآیند هضم سالم مواد غذایی هستند. میزان بالای آب و فیبرهای غذایی موجود در خیار باعث می‌شود که بدنتان از شر سموم موجود در سیستم گوارشی خلاص شود و هضم غذا هم با راحتی بیشتری صورت بگیرد. اگر دچار یبوست هستید توصیه می‌کنیم که هر روز خیار میل کنید زیرا مصرف منظم خیار یک درمان طبیعی برای یبوست محسوب می‌شود. خیار را می توان به عنوان میان وعده یا به همراه غذا خورد و یا در تهیه سالادها و نوشیدنی های مختلف از آن استفاده نمود. پوست خیار حاوی فیبر نامحلول است که باعث افزایش حجم مدفوع شده و با افزایش سرعت حرکت مواد غذایی در دستگاه گوارش به دفع بهتر و سریع تر مواد زائد از بدن کمک می کند.
+تاثیر مصرف خیار در حفظ سلامت مغز
+خیار حاوی نوعی فلاونول ضد التهاب به نام فیستین است که به نظر می رسد نقش مهمی در سلامت مغز ایفا می کند. فیستین در بهبود حافظه و حفاظت از سلول های عصبی در برابر زوال ناشی از افزایش سن موثر است. علاوه بر این، نتایج پژوهشی که بر روی موش های مبتلا به آلزایمر صورت گرفت نشان می دهد که فیستین مانع از اضمحلال حافظه و قدرت یادگیری می شود. بنابراین اگر به فکر سلامت مغزتان هستید بهتر است خیار را در برنامه غذایی خود بگنجانید.
+
+آبرسانی به بدن و رفع تشنگی
+از آنجایی که بیش از نیمی از بدن انسان را آب تشکیل می دهد، دریافت آب کافی برای عملکرد طبیعی سیستم های مختلف بدن ضروری است. آب همچنین برای تشکیل بزاق و خنک کردن بدن از طریق تعریق بسیار مهم است. کم بودن میزان آب دریافتی می تواند منجر به کم آبی بدن شود؛ کم آبی بدن نیز در موارد حاد موجب بروز خستگی، لرز و گرفتگی عضلانی می شود.
+با توجه به اینکه حدود ۹۶ درصد وزن خیار را آب تشکیل می دهد، به همین دلیل باید آبرسانی به بدن و پیشگیری از کم آبی یا دی هیدریش را از جمله خواص خیار دانست، به ویژه در روزهای گرم تابستان که مقدار زیادی با از بدن دفع کی گردد. شاید جالب باشد که بدانید تاثیر خوردن یک فنجان خیار خرد شده معادل نوشیدن یک لیوان آب است.
+
+
+
+
+
+ 
+
+</p>
+<button style="background-color:red;color:white;font-size:20px;margin-left:20px;border:none;boredr-radius:8px;"><a style="text-decoration:none;color:white;" href="index.html">بازگشت</a></button>
+		</div>
+
+
+
+		 <div id="second-part">
+    <h1 style="padding-top:22px;"> اخبار سلامت </h1>
+    <p style="direction:rtl;padding-right:12px;">در این بخش تازه ترین اخبار سلامت را ببینید</p>
+    <div class="salamat">
+      <a href="havich.html"><img src="image/6797196_448.jpg"></a>
+      <a href="havich.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;padding-left:5px;">هویج با داشتن مواد مقوی و ویتامین ها منبع مهمی برای درمان بسیاری از <span style="color:black;">بیماری</span> ها می باشد.</p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="gojeh.html"><img src="image/hhh419 (1).jpg"></a>
+      <a href="gojeh.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص گوجه فرنگی و مضرات گوجه فرنگی 
+      </p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="zeyton.html"><img src="image/thmb.Green_.Oil_.And_.Olive_.jpg"></a>
+      <a href="zeyton.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">بیست و یک فایده زیتون برای پوست و مو که باید بدانید</p></a>
+    </div>
+    
+    <div class="salamat">
+      <a href="sabz.html"><img src="image/tea_green_leaves_mint_84998_602x339.jpg"></a>
+      <a href="sabz.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص و فواید چای سبز چیست؟ مضرات چای سبز کدام اند؟</p></a>
+    </div>
+
+    <div class="salamat">
+     <a href="coffe.html"> <img src="image/134449_798.jpg"></a>
+      <a href="coffe.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;"> دلیل علمی برای اینکه هر روز قهوه تلخ بنوشید - فواید قهوه تلخ</p></a>
+    </div>
+
+    
+    <div class="salamat">
+      <a href="khiar.html"><img src="image/خیار.jpg"></a>
+      <a href="khiar.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص خیار برای سلامتی
+خیار برای لاغری و کاهش وزن
+</p></a>
+    </div>
+
+     <div class="salamat">
+      <a href="angor.html"><img src="image/grape-10.jpg"></a>
+      <a href="angor.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16angor.htmlpx;">خاصیت های اعجاب آور انگور</p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="khrom.html"><img src="image/عکس-خرما.jpg"></a>
+      <a href="khrom.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">. افزایش سلامتی و استحکام استخوان‌ها با خرما</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div id="footer">
+   <div id="head-footer">
+      <span style=" color: #d9d9d9;padding-right:30px;padding-top:25px;float:right;direction:rtl;font-size:23px;">اپلیکشن اشپری را روی گوشی های خود نصب نماید</span>
+      <button  id="change-style"onclick="change()" style=" margin-top:4px;padding-top:-10px;background-color:black;margin-left:10%;border:none;border-radius:12px;"><p style="font-size:20px;color:white;">دریافت از<span style="font-size:35px;">بازار</span></p></button>
+    </div>
+    
+
+   
+  <div id="part-one">
+   
+    <span style=" direction:rtl;color:red;font-size:18px;display:block;">دنبال کنید مارا در:</span>
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    
+  </div>
+  <div id="part-two">
+    <h1 style="color:  #737373;direction:rtl;">در باره اشپزی</h1>
+    <p style=" font-size:16px;color: #737373;direction:rtl;">متخصصین تغدیه بر این باور اند که اشپزی تنها یک<span style=" font-size:18px;color: #737373;direction:rtl;"> مهارت </span>نیست.بلکه 
+      <span style=" font-size:18px;color: #737373;direction:rtl;"> هنری </span> است که باید با اگاهی همراه باشد.تنها ریختن مواد غذایی درون دیگ،حرار دادن و هم زدن نیست بلکه باید نسبت به کاری که انجام میدهید 
+      <span style=" font-size:18px;color: #737373;direction:rtl;">معلومات </span>داشته باشید و در طبخ غذای سالم،تناسب و تعادل را رعایت کنید</p>
+  </div>
+
+
+</div>
+
+	
+
+
+	</div>
+
+</body>
+</html>

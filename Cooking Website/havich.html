@@ -1,0 +1,453 @@
+<html>
+<head>
+	<title></title>
+	<meta lang="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+	#main1{
+		width: 100%;
+		height: 1000px;
+		background-color: #e6e6ff;
+	}
+
+
+	#head{
+  height: 40px;
+    width: 100%;
+    background-color: #e6e6ff;
+    direction: rtl;
+    margin-bottom: 2px;
+  }
+  #head span{
+    font-size: 26px;
+    padding: 45px 44px;
+    color:red;
+  }
+  #head p{
+    font-size: 19px;
+  }
+
+
+  #head1{
+    height: 70px;
+    background-color: red;
+   
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  height: 100px;
+}
+.topnav .search-container {
+  float: left;
+  display: inline;
+}
+.topnav button{
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+
+}
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+   .topnav input[type=text],   {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar img{
+  width: 70px;
+  height: 70px;float: right;
+
+}.navbar a {
+    height: 70px;
+    float: right;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color:white;
+    padding-top: 22px; 
+}
+.dropdown {
+    float: right;
+    overflow: hidden;
+    background-color:white;
+    height: 70px;
+    cursor: pointer;
+
+}.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-top: 22px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  #e6e6ff;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    ;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    height: 30px;
+    direction:rtl;
+    padding-left: 56px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#main1 #main-description{
+	width: 60%;
+  margin-top: 10px;
+	float: right;
+	display: inline;background-color: white;
+	height: 920px;
+	margin-right:7%;
+
+	}
+	#main-description img{
+		width: 300px;
+		height: 300px;
+		display: inline;
+
+		float: right;
+		padding-left: 20px;
+	}
+	#main1 #second-part{
+  margin-top: 32px;
+  width: 26%;
+  float: left;
+  display: inline;
+  background-color: #eff5f5;
+  height: 900px;
+  margin-left: 15px;
+  border: solid #a6a6a6 2px;
+  border-radius:10px;
+  
+
+}
+#second-part .salamat{
+  width: 100%;
+  height: 80px;
+  background-color: #eff5f5;
+  display: block;
+}
+#second-part h1{
+  font-size: 23px;
+  text-align: center;
+  padding-left: 230px;
+  padding-top: 26px;
+  color:red;
+
+
+}#second-part .salamat img{
+  width: 25%;
+  float: right;
+  display: inline;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 30px;
+}
+#second-part .salamat a{
+  text-decoration: none;
+
+}
+#footer{
+  width: 100%;
+ height: 300px;
+  background-color:#e6e6e6;
+}
+#footer #part-one{
+  width: 200px;
+  height: 160px;
+  float: left;
+  display: inline;
+  /*background-color: red;*/
+  padding-left: 30px;
+  margin-top: 30px;
+  margin-left: 8%;
+}
+#footer #part-one img{
+  width: 25%;
+}
+#footer #part-one img:hover{
+  background-color: blue;
+  border:solid 5px lightblue;
+}
+#footer #part-two{
+  width: 600px;
+  height: 180px;
+  float: right;
+  display: inline;
+  /*background-color: red;*/
+  padding-right: 30px;
+  margin-right: 8%;
+  }
+#footer #part-two p{
+   width: 100%;
+  height: 100px;
+  float: right;
+  text-decoration: 
+}
+#footer #head-footer{
+  width: 100%;
+  height: 90px;
+  background-color:  #800000;
+
+}
+ #head-footer button:hover{
+  background-color: white;
+ }
+
+		</style>
+</head>
+<body>
+	<div id="head">
+   
+    <span style="display:inline;">  جدیدترین اخبار:</span>
+      <p style="display:inline;">کتابخانه های دیجیتال در بسیاری از فرم ها آمده است</p>
+  </div>
+  <div id="head1">
+<div class="navbar">
+  <img src="image/logo.jpg">
+  <div class="dropdown">
+    <button class="dropbtn">دستور پخت 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="morning.html" style="direction:rtl;">صبحانه</a>
+      <a href="lunch.html">نهار و شام</a>
+      <a href="evening.html">عصرانه</a>
+    </div>
+  </div>
+   <a href="choose.html">انتخاب</a>
+  <a href="salamt.html">سلامت</a>
+  <a href="#news">دانلود ها</a>
+  <a href="#news">نماس با ما</a>
+  
+  <div class="topnav">
+  	<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div> 
+</div>
+</div>
+	<div id="main1">
+		<div id="main-description">
+			<img src="image/6797196_448.jpg">
+			<h1 style="direction:rtl;padding-right:320px;">فایده هویج برای بدن</h1>
+			<p style="direction:rtl; padding-left:20px;padding-right:20px;font-size:17px;">امام رضا (علیه السلام)درباره خواص هویچ می فرمایند :خوردن هویچ برای رفع قولنج و بواسیر است و به جماع نیز کمک می کند . 
+فرقی نمی کند هویجتان خام، پخته، رنده شده یا به صورت پوره باشد. روش های متفاوتی برای وارد کردن هویج به برنامه ی غذایی روزانه وجود دارد. این ماده ی غذایی نارنجی رنگ سرشار از خواص فوق العاده است که خدمت بزرگی به سلامتی می کند.
+با مصرف این سبزی ترد، پرخاصیت و مقوی به اندازه کافی ویتامین A دریافت کرده و به دنبال آن پوستی شاداب داشته و از ابتلا به سرطان ، بروز پیری زودرس و ..... جلوگیری کنید.
+خواص بسیار فوق العاده هویج
+در این مطلب خواهید خواند که چگونه از حداکثر خواص این سبزی عالی و معجزه گر بهره مند شوید.
+خواص هویج را بشناسید<br>
+1- بینایی را تقویت می کند
+هویج سرشار از بتاکاروتن می باشد که در کبد به ویتامین A تبدیل می شود. این ویتامین در رتینا یا شبکیه به ردوپسین - رنگدانه ارغوانی رنگ مورد نیاز در دید شب - تبدیل می شود.
+همچنین تحقیقات ثابت کرده بتاکاروتن از بروز دژنراسیون ماکولا چشمی و آب مروارید سنایل - شایع ترین نوع آب مروارید -پیشگیری و محافظت می کند.در یک بررسی مشخص شد که افرادی که مقدار بیشتری بتاکاروتن مصرف کرده بودند احتمال خطر ابتلای آنان به دژنراسیون ماکولار چشمی 40 درصد کمتر از کسانی که بتاکاروتن کمتری مصرف کرده بودند وجود داشت.<br>
+2- از ابتلا به سرطان پیشگیری می کند
+تحقیقات نشان داده مصرف هویج خطر ابتلا به سرطان ریه، سینه و کولون (روده بزرگ) را کاهش می دهد.
+محققان به تازگی کشف کرده اند که دو ماده موجود در هویج به نام های فالکارینول و فالکاریندول دارای خواص ضد سرطانی هستند.
+فالکارینول ماده ضدآفت طبیعی است که توسط هویج تولید می شود تا از ریشه خود در مقابل بیماری های قارچی محافظت کند.
+هویج یکی از منابع این ترکیب است. در یک بررسی مشخص شد موش هایی که هویج خورده بودند تا یک سوم کمتر به سرطان مبتلا شدند.<br>
+3- دارای خواص ضد پیری است
+مقدار بالای بتاکاروتن موجود در هویج در برابر تخریب سلولی ناشی از متابولیسم طبیعی بدن مانند یک آنتی اکسیدان عمل می کند و روند پیری سلول ها را آهسته تر می کند.<br>
+4- پوست را تقویت می کند
+ویتامین A و آنتی اکسیدان ها از پوست در برابر تخریب ناشی از نور خورشید محافظت می کنند.کمبود ویتامین A باعث خشکی پوست، مو و ناخن می شود. ویتامین A از بروز پیری زودرس، آکنه، خشکی پوست، لکه و از بین رفتن یکنواختی رنگ پوست پیشگیری می کند.<br>
+5- ضدعفونی کننده است
+گیاه شناسان بر این عقیده هستند که هویج از ایجاد عفونت پیشگیری می کند. از این گیاه می توان به روش های مختلف مانند له شده، جوشانده یا خام بر روی انواع زخم ها استفاده کرد.<br>
+6- پوست را از بیرون تقویت می کند
+با هویج می توان ماسک صورت ارزان و راحتی تهیه کرد . برای این کار فقط هویج رنده شده را با کمی عسل مخلوط کنید.<br>
+7- از بروز بیماری های قلبی پیشگیری می کند
+طی نتایج چندین بررسی، رژیم های سرشار از کارتنوئیدها، با کاهش خطر بیماری های قلبی ارتباط مستقیم دارند. هویج نه تنها دارای بتاکاروتن است بلکه حاوی آلفا کاروتن و لوتئین نیز می باشد.
+همچنین مصرف منظم هویج میزان کلسترول را کاهش می دهد زیرا فیبرهای محلول موجود در هویج با اسیدهای صفرا پیوند می خورند.<br>
+8- بدن را از مواد زائد پاکسازی می کند
+ویتامین A به کبد کمک می کند تا مواد زائد را از بدن بیرون کند. این ماده غذایی باعث کاهش صفرا و چربی در کبد می شود. فیبرهای موجود در هویج به تمیز کردن روده و سرعت بخشیدن خروج مواد زائد از بدن کمک می کنند.<br>
+9- موجب سلامت دندان ها و لثه ها می شود
+این سبزی ترد همه نوع خاصیتی دارد! هویج ها دهان و دندان را تمیز می کنند. آن ها مانند مسواک و یا خلال دندان مواد باقی ماده غذا را از لای دندان ها خارج می کنند. هویج با تحریک لثه باعث ترشح زیاد بزاق شده که ایجاد اسید و باکتری سازنده کرم خوردگی دندان را متوازن می کند.<br>
+10- از بروز سکته پیشگیری می کند
+طی یک بررسی که در دانشگاه هاروارد صورت گرفت مشخص شد افرادی که بیش از 6 هویج در هفته می خورند نسبت به آن هایی که در ماه تنها یک هویج یا کمتر می خورند، کمتر با سکته مواجه می شوند.
+</p>
+<button style="background-color:red;color:white;font-size:20px;margin-left:20px;border:none;boredr-radius:8px;"><a style="text-decoration:none;color:white;" href="index.html">بازگشت</a></button>
+		</div>
+
+
+
+
+		
+
+
+
+
+
+ <div id="second-part">
+    <h1 style="padding-top:22px;"> اخبار سلامت </h1>
+    <p style="direction:rtl;padding-right:12px;">در این بخش تازه ترین اخبار سلامت را ببینید</p>
+    <div class="salamat">
+      <a href="havich.html"><img src="image/6797196_448.jpg"></a>
+      <a href="havich.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;padding-left:5px;">هویج با داشتن مواد مقوی و ویتامین ها منبع مهمی برای درمان بسیاری از <span style="color:black;">بیماری</span> ها می باشد.</p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="gojeh.html"><img src="image/hhh419 (1).jpg"></a>
+      <a href="gojeh.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص گوجه فرنگی و مضرات گوجه فرنگی 
+      </p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="zeyton.html"><img src="image/thmb.Green_.Oil_.And_.Olive_.jpg"></a>
+      <a href="zeyton.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">بیست و یک فایده زیتون برای پوست و مو که باید بدانید</p></a>
+    </div>
+    
+    <div class="salamat">
+      <a href="sabz.html"><img src="image/tea_green_leaves_mint_84998_602x339.jpg"></a>
+      <a href="sabz.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص و فواید چای سبز چیست؟ مضرات چای سبز کدام اند؟</p></a>
+    </div>
+
+    <div class="salamat">
+     <a href="coffe.html"> <img src="image/134449_798.jpg"></a>
+      <a href="coffe.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;"> دلیل علمی برای اینکه هر روز قهوه تلخ بنوشید - فواید قهوه تلخ</p></a>
+    </div>
+
+    
+    <div class="salamat">
+      <a href="khiar.html"><img src="image/خیار.jpg"></a>
+      <a href="khiar.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">خواص خیار برای سلامتی
+خیار برای لاغری و کاهش وزن
+</p></a>
+    </div>
+
+     <div class="salamat">
+      <a href="angor.html"><img src="image/grape-10.jpg"></a>
+      <a href="angor.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16angor.htmlpx;">خاصیت های اعجاب آور انگور</p></a>
+    </div>
+
+    <div class="salamat">
+      <a href="khrom.html"><img src="image/عکس-خرما.jpg"></a>
+      <a href="khrom.html"><p style="direction:rtl;padding-top:22px;color:red;font-size:16px;">. افزایش سلامتی و استحکام استخوان‌ها با خرما</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div id="footer">
+   <div id="head-footer">
+      <span style=" color: #d9d9d9;padding-right:30px;padding-top:25px;float:right;direction:rtl;font-size:23px;">اپلیکشن اشپری را روی گوشی های خود نصب نماید</span>
+      <button  id="change-style"onclick="change()" style=" margin-top:4px;padding-top:-10px;background-color:black;margin-left:10%;border:none;border-radius:12px;"><p style="font-size:20px;color:white;">دریافت از<span style="font-size:35px;">بازار</span></p></button>
+    </div>
+    
+
+   
+  <div id="part-one">
+   
+    <span style=" direction:rtl;color:red;font-size:18px;display:block;">دنبال کنید مارا در:</span>
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+    
+  </div>
+  <div id="part-two">
+    <h1 style="color:  #737373;direction:rtl;">در باره اشپزی</h1>
+    <p style=" font-size:16px;color: #737373;direction:rtl;">متخصصین تغدیه بر این باور اند که اشپزی تنها یک<span style=" font-size:18px;color: #737373;direction:rtl;"> مهارت </span>نیست.بلکه 
+      <span style=" font-size:18px;color: #737373;direction:rtl;"> هنری </span> است که باید با اگاهی همراه باشد.تنها ریختن مواد غذایی درون دیگ،حرار دادن و هم زدن نیست بلکه باید نسبت به کاری که انجام میدهید 
+      <span style=" font-size:18px;color: #737373;direction:rtl;">معلومات </span>داشته باشید و در طبخ غذای سالم،تناسب و تعادل را رعایت کنید</p>
+  </div>
+
+
+</div>
+
+	
+
+
+	</div>
+
+</body>
+</html>

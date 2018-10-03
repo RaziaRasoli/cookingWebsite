@@ -1,0 +1,498 @@
+<html>
+<head>
+	<title></title>
+	<meta lang="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+	<style type="text/css">
+	
+
+	#main1{
+		width: 100%;
+		height: 700px;
+		background-color: #e1e1e1;
+
+	}
+#main1 #main-description{
+	width: 80%;
+	float: right;
+	/*display: inline;background-color:#d9e6f2;*/
+	height: 400px;
+  background-image: url("image/background-cooking-1.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 82%;
+  margin-right: 10%;
+  margin-top: 4%;
+
+	}
+
+    #main_two{
+      width: 100%;
+      height: 700px;
+   
+      
+    }
+   
+ 
+
+		</style>
+</head>
+<body>
+	
+  <div id="head">
+   
+     <a id="a" style="text-decoration:none;font-size:22px;color:red;" href="#">  جدیدترین اخبار  سلامت:</a>
+
+  <script type="text/javascript">
+  
+var array=[["فواید خرما برای بدن","khrom.html"],["قهوه تلخ و فواید ان","coffe.html"],["اضرار و فواید گوجه","gojeh.html"],["فواید زیتون برای پوست و مو","zeyton.html"]]
+  
+   var x=document.getElementById('a');
+
+   function printText (index) {
+    x.innerHTML = array[index][0];
+    x.href = array[index][1];
+   }
+
+   function timer () {
+    window.setTimeout("printText(0)",2000);
+    window.setTimeout("printText(1)",4000);
+    window.setTimeout("printText(2)",6000);
+    window.setTimeout("printText(3)",8000);
+    window.setTimeout("printText(3)",10000);
+   }
+   timer();
+   var count = 1;
+   while(count <= 1000){
+     window.setTimeout("timer()", 10000*count);
+     count++;
+   }
+
+
+</script>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <div id="head1">
+<div class="navbar">
+  <img src="image/logo.jpg">
+  <div class="dropdown">
+    <button class="dropbtn">دستور پخت 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html" style="direction:rtl;">صبحانه</a>
+      <a href="lunch.html">نهار و شام</a>
+      <a href="evening.html">عصرانه</a>
+    </div>
+  </div>
+  <a href="choose.html">انتخاب</a>
+  <a href="salamt.html">سلامت</a>
+   <a href="about.html">درباره ما</a>
+  <a href="#news">تماس با ما</a>
+  
+  <div class="topnav">
+  	<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div> 
+</div>
+</div>
+	<div id="main1">
+		<div id="main-description">
+			<h1   style=" color:white;direction:rtl;padding-right:30px;">موادی که برای درست کردن صبحانه دارید را انتخاب نماید:</h1>
+      <button onclick="change_morabi_gerdo()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">گردو</button>
+
+       <button  onclick="change_khroma()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">خرما</button>
+
+        <button onclick="change_toot()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">توت فرنگی</button>
+
+         <button onclick="change_bread()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">نان</button>
+
+          <button  onclick="change_omelat()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">فلفل</button>
+
+          <button  onclick="change_zarilo()"  style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">زردالو</button>
+
+          <button  onclick="change_ilo()" style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">الو</button>
+
+          <button   onclick="change_golabi()"; style="background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;">گلابی</button>
+
+
+
+		
+
+<div id="main_two">
+  <h1 style=" color:white;direction:rtl;padding-right:30px;">موادی که برای درست کردن نهار دارید را انتخاب نماید:</h1>
+
+  <button style=" color:white;background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:185px;" onclick = "makeFood(event)" value = "rice">برنج</button>
+  <button style=" color:white;background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;" onclick = "makeFood(event)" value = "potato">کچالو</button>
+  <button style=" color:white;background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;" onclick = "makeFood(event)" value = "kado">کدو</button>
+ <button style=" color:white;background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;" onclick = "makeFood(event)" value = "meat">گوشت</button>
+ <button style=" color:white;background-color:#21415f;padding:12px 30px;font-size:22px;color:white;margin-left:10px;" onclick = "makeFood(event)" value = "pasta">ماکارانی</button>
+  
+  <div class = "potato_pasta">
+    <a style="color:white; direction:rtl;padding-left:350px;font-size:28px;text-decoration:none;" href="pasta_chees.html">پاستا با سیب زمینی و پنیر</a>
+  </div>
+  <div class = "potato_kado">
+     <a style="color:white; direction:rtl;padding-left:350px;font-size:28px;text-decoration:none;" href="kado_potato.html">سوپ کدو حلوایی و سیب زمینی</a>
+  </div>
+
+  <div class = "rice_meat">
+    <a style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="sabzi_fish.html">سبزی پلو با ماهی</a>
+    <br>
+
+     <a style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="rice_chiken.html">مرغ و برنج</a>
+  </div>
+
+  <div class = "rice_kado">
+    <a  style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="sabzi_fish.html">سبزی پلو با ماهی</a>
+  </div>
+
+  
+
+  <div class = "pasta_meat">
+     <a style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="pasta_fish.html">پاستا با ماهی</a>
+     <br>
+      <a  style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="pasta_rago.html">پاستا با راگوی مرغ</a>
+  </div>
+
+ 
+
+   <div class = "pasta_kado">
+        <a style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="pasta_kado.html">پاستا با کدو</a>
+
+  </div>
+
+   <div class = "potato_meat">
+        <a style="color:white; direction:rtl;padding-left:400px;font-size:28px;text-decoration:none;" href="gosht.html">ابگوشت سنتی</a>
+  </div>
+
+  <div class = "meat_kado">
+         <a  style="color:white; direction:rtl;padding-left:310px;font-size:28px;text-decoration:none;" href="kado_meat.html">خورش کدو سبز با گوشت</a>
+         <br>
+         <a style="color:white; direction:rtl;padding-left:310px;font-size:28px;text-decoration:none;" href="kado_meat1.html">کدو سبز قایقی با گوشت چرخکرده</a>
+        
+  </div>
+
+   <div class = "potato_rice">
+      <p>برنج و چیپس هم بلدی میخواد.خجالن بکش</p>
+  </div>
+
+<div class = "rice_potato">
+       <pre> <p style=" color:white;direction:rtl;font-size:24px;">   برنج و کچالو؟؟؟؟
+        خجالت بکش 
+        </p> </pre>
+  </div>
+
+   <div class = "rice_pasta">
+     <pre> <p style=" color:white;direction:rtl;font-size:20px;">    شکم خودته ولی برنج و ماکارانی    
+   اخه برنج و ماکارانی رو کی با هم میخوره؟؟؟ </p> </pre>
+     
+  </div>
+
+
+<script type="text/javascript">
+  var nameOfFood = "";
+  var count_clicks=0;
+    function makeFood (event) {
+      count_clicks++;
+      if(count_clicks%2 != 0){
+        
+        var btn=document.querySelectorAll("#main_two button");
+        for (var i = 0; i < btn.length; i++) {  
+          btn[i].style.backgroundColor = "#21415f";
+        };
+        event.target.style.backgroundColor = "darkgray";
+
+      }
+      else{
+        event.target.style.backgroundColor = "darkgray";
+
+      }
+   
+
+
+      
+
+
+
+      nameOfFood += event.target.value;
+      
+      var potato_pasta = document.getElementsByClassName('potato_pasta');
+      var potato_kado = document.getElementsByClassName('potato_kado');
+       var rice_meat = document.getElementsByClassName('rice_meat');
+       var rice_kado = document.getElementsByClassName('rice_kado');
+       var rice_pasta = document.getElementsByClassName('rice_pasta');
+       var pasta_meat = document.getElementsByClassName('pasta_meat');
+       
+       var pasta_kado = document.getElementsByClassName('pasta_kado');
+       var rice_potato = document.getElementsByClassName('rice_potato');
+       var potato_rice = document.getElementsByClassName('potato_rice');
+       var potato_meat = document.getElementsByClassName('potato_meat');
+    var rice_meat = document.getElementsByClassName('rice_meat');
+
+var meat_kado = document.getElementsByClassName('meat_kado');
+      if(nameOfFood == "potatopasta" || nameOfFood == "pastapotato"){
+          
+          
+          nameOfFood = "";
+        for (var i = 0; i < 3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "block";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+
+        }
+
+      }else if(nameOfFood == "ricemeat" || nameOfFood == "meatrice"){
+       
+        nameOfFood = "";
+        for (var i = 0; i < 3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "block";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+        }
+        
+      }
+      else if(nameOfFood == "pastameat" || nameOfFood == "meatpasta"){
+         
+         nameOfFood = "";
+        for (var i = 0; i < 3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "block";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+        }
+       
+      }
+      else if(nameOfFood == "potatomeat" || nameOfFood == "meatpotato"){
+       
+        nameOfFood = "";
+        for (var i = 0; i < 3; i++) {
+         meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "block";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+        }
+        
+      }
+       else if(nameOfFood == "ricepasta" || nameOfFood == "pastarice"){
+        
+        nameOfFood="";
+        for (var i = 0; i <3; i++) {
+          rice_pasta[i].style.display = "block";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          meat_kado[i].style.display="none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+        }
+        
+      }
+
+       else if(nameOfFood == "meatkado" || nameOfFood == "kadomeat"){
+       
+        nameOfFood="";
+        for (var i = 0; i <2; i++) {
+          meat_kado[i].style.display="block";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+          
+        }
+        
+      }
+      else if(nameOfFood == "pastakado" || nameOfFood == "kadopasta"){
+        
+        nameOfFood="";
+        for (var i = 0; i <3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "block";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+          
+        }
+        
+      }
+      else if(nameOfFood == "potatokado" || nameOfFood == "kadopotato"){
+        
+        nameOfFood="";
+        for (var i = 0; i <3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "block";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="none";
+
+
+          
+        }
+        
+      }
+
+      else if(nameOfFood == "ricekado" || nameOfFood == "kadorice"){
+        
+        nameOfFood="";
+        for (var i = 0; i <3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "block";
+          rice_potato[i].style.display="none";
+
+          
+        }
+        
+      }
+       else if(nameOfFood == "ricepotato" || nameOfFood == "potatorice"){
+        
+        nameOfFood="";
+        for (var i = 0; i <3; i++) {
+          meat_kado[i].style.display="none";
+          rice_pasta[i].style.display = "none";
+          potato_meat[i].style.display = "none";
+          pasta_meat[i].style.display = "none";
+          rice_meat[i].style.display = "none";
+          potato_pasta[i].style.display = "none";
+          potato_kado[i].style.display = "none";
+          pasta_kado[i].style.display = "none";
+          rice_kado[i].style.display = "none";
+          rice_potato[i].style.display="block";
+          
+        }
+        
+      }
+    }
+
+  </script>
+
+
+
+
+
+
+ </div>
+    
+    
+	
+    </div>
+    
+  </div>
+
+</div>
+
+
+  <div id="footer">
+   <div id="head-footer">
+     
+    </div>
+    
+
+   
+  <div id="part-one">
+   
+    <span style=" direction:rtl;color:red;font-size:18px;display:block;">دنبال کنید مارا در:</span>
+    <img src="image/f.png">
+    <img src="image/l.png">
+    <img src="image/twtr.png">
+   
+    
+  </div>
+  <div id="part-two">
+    <h1 style="color:  #737373;direction:rtl;">در باره اشپزی</h1>
+    <p style=" font-size:16px;color: #737373;direction:rtl;">متخصصین تغدیه بر این باور اند که اشپزی تنها یک<span style=" font-size:18px;color: #737373;direction:rtl;"> مهارت </span>نیست.بلکه 
+      <span style=" font-size:18px;color: #737373;direction:rtl;"> هنری </span> است که باید با اگاهی همراه باشد.تنها ریختن مواد غذایی درون دیگ،حرار دادن و هم زدن نیست بلکه باید نسبت به کاری که انجام میدهید 
+      <span style=" font-size:18px;color: #737373;direction:rtl;">معلومات </span>داشته باشید و در طبخ غذای سالم،تناسب و تعادل را رعایت کنید</p>
+  </div>
+
+
+</div>
+
+	
+
+
+	</div>
+<script type="text/javascript" src="javascript/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="a">hello</p>
+
+	<script type="text/javascript">
+	
+
+	var array=["","second","third","forth","fifth"];
+	 var x=document.getElementById('a');
+
+	 function printText (index) {
+	 	x.innerHTML = array[index];
+	 }
+
+	 function timer () {
+	 	window.setTimeout("printText(0)",2000);
+	 	window.setTimeout("printText(1)",4000);
+	 	window.setTimeout("printText(2)",6000);
+	 	window.setTimeout("printText(3)",8000);
+	 	window.setTimeout("printText(3)",10000);
+	 }
+	 timer();
+	 var count = 1;
+	 while(count <= 1000){
+		 window.setTimeout("timer()", 10000*count);
+		 count++;
+	 }
+	//  var count = 0;
+	//  while(count <= 1000){
+	//  	var innerCount = 0
+	//  	while(innerCount <= 4){
+	// 		 window.setTimeout("printText("+innerCount+")",2000*innerCount);
+	// 		 // window.setTimeout("printText(1)",4000);
+	// 		 // window.setTimeout("printText(2)",6000);
+	// 		 // window.setTimeout("printText(3)",8000);
+	// 		 // window.setTimeout("printText(4)",10000);
+	// 		 innerCount++;
+	// 		}
+			
+	// 	count++;
+	// }
+		
+
+	</script>
+
+</body>
+</html>
